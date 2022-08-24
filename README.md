@@ -28,3 +28,13 @@ In Java, we use method overloading and method overriding to achieve polymorphism
 
 Ex:
 the make sound method the dog class goes bark bark but the cat class goes meow meow
+
+---
+
+Arrays:
+int[] numbers = new int[3]
+this array can only hold three elements and is unchangeab.
+
+    we can use list to be able to change the values in the array:
+    List<Integer> numList = new ArrayList<>();
+    we can change the size how ever we like we also have methods like add, remove ect
