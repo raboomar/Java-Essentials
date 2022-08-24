@@ -1,6 +1,7 @@
 package com.company.dataStructures;
 
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.Set;
 
 public class WorkingWithSets {
@@ -10,6 +11,11 @@ public class WorkingWithSets {
         characterSet.add('C');
         for(char charater: characterSet){
             System.out.println(charater);
+        }
+        Iterator<Character> iterator = characterSet.iterator();
+        while (iterator.hasNext()){
+            Character character = characterSet.iterator().next();
+            System.out.println(character);
         }
     }
 }
